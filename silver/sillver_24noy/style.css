@@ -1,0 +1,180 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500;600;800;900&display=swap");
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main_container {
+  background: #fbedda;
+}
+
+.container {
+  width: 1440px;
+  margin: 0 auto;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 70px;
+}
+
+.navLinks,
+.navLinks ul {
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+  gap: 92px;
+}
+
+.navLinks ul li a {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  color: #000;
+}
+
+.log {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 69px;
+}
+
+.page1_img {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  margin-top: 60px;
+}
+
+.box1 {
+  width: 730px;
+  height: 460px;
+  background: rgba(196, 196, 196, 0.5);
+  margin-top: 30px;
+  margin-left: 165px;
+}
+
+.box1 h1 {
+  font-weight: 400;
+  font-size: 20px;
+  color: #4581b7;
+  padding-top: 50px;
+  padding-left: 30px;
+}
+
+.box1 p {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: rgba(0, 0, 0, 0.5);
+  padding-left: 30px;
+  padding-top: 20px;
+}
+
+.box2 {
+  width: 350px;
+  height: 460px;
+  background: rgba(196, 196, 196, 0.5);
+  margin-top: 30px;
+}
+
+.page_wrapper {
+  display: flex;
+  gap: 30px;
+}
+
+.box2 h1 {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.2;
+  color: #4581b7;
+  padding-left: 30px;
+  padding-top: 45px;
+}
+
+.box2 p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: rgba(0, 0, 0, 0.5);
+  padding-left: 30px;
+  padding-top: 20px;
+}
+
+.box2 h3 {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: rgba(0, 0, 0, 0.5);
+  padding-left: 30px;
+  padding-top: 35px;
+}
+
+.box2 h4 {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: rgba(0, 0, 0, 0.5);
+  padding-left: 30px;
+  padding-top: 35px;
+}
+
+footer {
+  width: 1110px;
+  height: 190px;
+  background: rgba(196, 196, 196, 0.5);
+  margin-top: 35px;
+  margin-left: 395px;
+}
+
+.footer_wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer_logo {
+  padding-left: 30px;
+  padding-top: 30px;
+}
+
+.footer_text {
+  padding-right: 56px;
+}
+
+.footer_text h4 {
+  margin-top: 5px;
+}
+
+.footer_text h3  {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.5;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+
+.footer_text h4  {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.5;
+    color: rgba(0, 0, 0, 0.5);
+  }
+  

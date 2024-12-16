@@ -1,0 +1,165 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: auto;
+}
+@media (min-width: 1400px) {
+  .container {
+    width: 1350px;
+    margin: 0 auto;
+  }
+}
+
+header {
+  background-image: url(./img/header_bg_image\ 1.jpg);
+  width: auto;
+  height: auto;
+  background-size: cover;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navLinks,
+.navLinks ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 80px;
+  margin-top: 18px;
+}
+
+.logo {
+  margin-top: 35px;
+}
+
+.navLinks ul li a {
+  font-family: "Arial", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  color: #515151;
+}
+
+.text1 h1 {
+  font-family: "Arial", sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  color: #cb0a15;
+  margin-bottom: 30px;
+
+}
+
+.text1 p {
+  font-family: "Arial", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  color: #515151;
+  margin-top: 50px;
+}
+
+.text1 span {
+  font-weight: 700;
+  color: #000;
+}
+
+.text1 {
+  text-align: center;
+  margin-top: 235px;
+}
+
+.page1_wrapper {
+  margin-top: 100px;
+}
+
+.page1_left h2 {
+  font-family: "Arial", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  color: #000;
+  gap: 5px;
+  margin-top: 55px;
+}
+
+.page1_left p {
+  font-family: "Arial", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  color: #919191;
+  margin-top: 30px;
+}
+
+.page1_left span {
+  font-family: "Arial", sans-serif;
+  font-weight: 700;
+  font-size: 25px;
+  color: #2c2c2c;
+}
+
+.right_text h4 {
+  font-family: "Arial", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  color: #000;
+}
+
+.right_text p {
+  font-family: "Arial", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #919191;
+  margin-top: 18px;
+}
+
+.page_right_wrapper{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.box{
+  display: flex;
+}
+
+
+.right_text{
+  margin-left: 30px;
+}
+
+
+.container2{
+  display: flex;
+  margin: auto;
+  width: 90%;
+}
+
+
+.page1_right{
+  margin-top: 96px;
+  margin-left: 50px;
+}
+
+.right_text-img{
+  margin-top: 27px;
+}
+
+.right_text{
+  margin-top: 40px;
+
+}
+
+
